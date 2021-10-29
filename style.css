@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+body {
+  background-color: rgb(31, 144, 236);
+}
+
+.created {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.created h3 {
+  margin-bottom: 20px;
+}
+.created table {
+  margin-left: 100px;
+}
+
+.main {
+  background-color: rgb(203, 230, 51);
+  border-radius: 20px;
+  padding: 10px 10px;
+  border: 5px solid #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.main h2 {
+  font-weight: bold;
+  color: rgb(3, 40, 70);
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.textView {
+  text-align: end;
+  width: 215px;
+  padding: 5px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid rgb(172, 173, 173);
+}
+.button {
+  border-radius: 10px;
+  border: none;
+  width: 50px;
+  height: 40px;
+  font-size: 24px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: rgb(3, 40, 70);
+  box-shadow: 2px 2px 1px rgb(230, 230, 238);
+}
+.button-c {
+  box-shadow: 2px 2px 1px rgb(230, 230, 238);
+  border-radius: 10px;
+  border: none;
+  color: rgb(3, 40, 70);
+  width: 50px;
+  height: 40px;
+  font-size: 24px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: rgb(253, 165, 1);
+}
+.button-samadengan {
+  box-shadow: 2px 2px 1px rgb(230, 230, 238);
+  border-radius: 10px;
+  border: none;
+  color: rgb(3, 40, 70);
+  width: 50px;
+  height: 40px;
+  font-size: 24px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: rgb(253, 165, 1);
+}
+
+.button:hover {
+  background-color: rgb(4, 127, 235);
+  transition: 0.3s;
+  transform: scale(101%);
+  box-shadow: 2px 2px 1px rgb(72, 72, 75);
+}
+.button-c:hover {
+  background-color: rgb(4, 127, 235);
+  transition: 0.3s;
+  transform: scale(103%);
+  box-shadow: 2px 2px 1px rgb(72, 72, 75);
+}
+.button-samadengan:hover {
+  background-color: rgb(4, 127, 235);
+  transition: 0.3s;
+  transform: scale(103%);
+  box-shadow: 2px 2px 1px rgb(72, 72, 75);
+}
